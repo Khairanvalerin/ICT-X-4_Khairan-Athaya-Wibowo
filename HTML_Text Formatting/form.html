@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h2>Create Form in HTML</h2>
+    <form>
+        <h3>Student Registration Form</h3>
+        <label>Fullname</label>
+        <br>
+        <input type="text" name="name" placeholder="Enter your Fullname" required>
+        <br>
+        <label>Email</label>
+        <br>
+        <input type="email" name="email" placeholder="Enter your E-mail" required>
+        <br>
+        <label>Password</label>
+        <br>
+        <input type="password" name="password" placeholder="Enter your Password" required>
+        <br><label>Date of Birth</label>
+        <br>
+        <input type="date" name="dob" required>
+        <br>
+        <label>Class</label>
+        <br>
+        <select name="class" required>
+            <option value="">Select Class</option>
+            <option value="class1">X-1</option>
+            <option value="class2">X-2</option>
+            <option value="class3">X-3</option>
+            <option value="class4">X-4</option>
+        </select>
+        <br>
+        <label>Gender</label>
+        <br>
+        <input type="radio" name="gender" value="male" required> Male
+        <input type="radio" name="gender" value="female" required> Female
+        <br>
+        <label>Skills</label>
+        <br>
+        <input type="checkbox" name="skills" value="html"> HTML
+        <input type="checkbox" name="skills" value="css"> CSS
+        <input type="checkbox" name="skills" value="javascript"> JavaScript
+        <br>
+        <label>About Yourself</label>
+        <br>
+        <textarea rows="5" cols="50" name="about" placeholder="Tell us about yourself ...."></textarea>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>     
+</body>
+</html>
